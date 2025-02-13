@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-13T04:59:45Z" name="Default suite" finished-at="2025-02-13T05:01:04Z" duration-ms="78431">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@6cc4cdb9]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-13T04:59:45Z" name="Default test" finished-at="2025-02-13T05:01:04Z" duration-ms="78431">
+      <class name="testRunner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T04:59:46Z" name="setUpClass" finished-at="2025-02-13T04:59:46Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T04:59:46Z" name="setup" finished-at="2025-02-13T04:59:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T04:59:46Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T04:59:51Z" duration-ms="5112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User successfully adds single Todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MyTodo Management Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T04:59:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T05:00:04Z" duration-ms="12911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User successfully adds multiple Todos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MyTodo Management Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T05:00:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T05:00:18Z" duration-ms="14496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User successfully mark Todo as completed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MyTodo Management Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T05:00:18Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T05:00:32Z" duration-ms="13331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User successfully delete Todo from the list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MyTodo Management Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T05:00:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T05:00:48Z" duration-ms="16689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User successfully clear completed todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MyTodo Management Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T05:00:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T05:01:04Z" duration-ms="15620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User count Active todos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MyTodo Management Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T05:01:04Z" name="tearDown" finished-at="2025-02-13T05:01:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="runCucumberTests()[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T05:01:04Z" name="runCucumberTests" finished-at="2025-02-13T05:01:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCucumberTests -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.Runner@6cc4cdb9]" started-at="2025-02-13T05:01:04Z" name="tearDownClass" finished-at="2025-02-13T05:01:04Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
